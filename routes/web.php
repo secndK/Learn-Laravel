@@ -28,9 +28,12 @@ Route::get('/montre', function() {
 });
 
 
+Route::get('/home', function(){
+    return view('home');
+});
 
-// la vue accueil faite avec le controller "MonPremierController"
-
-
+Route::get('/about', function(){
+    return view('about');
+});
 
 ?>
